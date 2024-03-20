@@ -1,0 +1,92 @@
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(86, 235, 165, 0.25);
+    background-color: white;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #003a03;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: rgb(0, 87, 0);
+    color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    color: black !important;
+}
+
+p {
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 3rem;
+}
+
+#feedback {
+    font-size: 3rem; 
+    color: white; 
+}
+/* CSS styles for total score, impact, and suggestions */
+
+p1 {
+    font-size: 2rem; /* Change the font size as desired */
+    color: white; /* Change the color as desired */
+    /* Add any additional styling here */
+}
+
+
+
+#game p1 {
+    font-size: 3rem; 
+    color: white; 
+}
+
+#next-btn {
+    height: 50px; 
+   
+}
+
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(11, 100, 11);
+    color: #fff;
+    padding: 20px;
+    z-index: 1000; /* Ensure the banner stays above other content */
+    transition: all 0.3s ease; /* Add transition for smooth movement */
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    margin-left: auto; /* Align navigation links to the left */
+}
+
+.links a {
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px; /* Adjust margin for spacing between links */
+}
+
+
